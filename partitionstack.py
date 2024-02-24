@@ -75,7 +75,6 @@ def StackPartitionSort(List):
         print("X is " + str(X))
         A = X[0]                                    
         if isinstance(A, list) and len(A) > 1:
-            #print("gay")
             print("A is " + str(A))
             L, a, U = Partition(A)
             #print(L,a,U)
